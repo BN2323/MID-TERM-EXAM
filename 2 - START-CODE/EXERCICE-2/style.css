@@ -1,0 +1,44 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: rgb(26, 124, 81);
+  font-weight:bold;
+  color: white;
+}
+.white {
+  background-color: white;
+}
+.grey {
+  background-color: rgb(227, 227, 227);
+}
+.table {
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 800px;
+}
+
+.table ul {
+  list-style: none;
+}
+
+.table li {
+  padding: 20px;
+}
+
+.bold {
+  font-weight:bold;
+}
